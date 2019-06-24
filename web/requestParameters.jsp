@@ -14,7 +14,7 @@
     <body>
         <h1>Request Parameters</h1>
         
-        <form action="second.jsp" method="get">
+        <form action="Third" method="post">
             Name : <input type="text" name="name"/><br/>
             Age : <input type="text" name="age"/><br/>
             Address: <input type="text" name="address"/><br/>

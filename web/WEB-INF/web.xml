@@ -8,6 +8,10 @@
         <servlet-name>MyServlet</servlet-name>
         <servlet-class>newpackage.MyServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Third</servlet-name>
+        <servlet-class>newpackage.Third</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>GeneratedServlet</servlet-name>
         <url-pattern>/GeneratedServlet</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>MyServlet</servlet-name>
         <url-pattern>/MyServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Third</servlet-name>
+        <url-pattern>/Third</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
