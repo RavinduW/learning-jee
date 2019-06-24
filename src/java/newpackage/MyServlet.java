@@ -34,7 +34,7 @@ public class MyServlet extends HttpServlet {
         //request.getRequestDispatcher("jsp2.jsp").forward(request,response);
   
         //request redirecting
-        response.sendRedirect("jsp2.jsp");
+        response.sendRedirect("requestParameters.jsp");
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
